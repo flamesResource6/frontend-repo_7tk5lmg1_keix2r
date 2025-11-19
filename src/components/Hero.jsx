@@ -10,13 +10,13 @@ export default function Hero() {
       </div>
 
       {/* gradient overlays */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/60 to-slate-950 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/70 to-black pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 w-full">
         <div className="max-w-3xl">
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">
-              <span className="size-1.5 rounded-full bg-red-500"></span>
+            <span className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300 ring-1 ring-inset ring-emerald-500/30">
+              <span className="size-1.5 rounded-full bg-emerald-500"></span>
               Prevent dev rugs on pump.fun
             </span>
           </motion.div>
@@ -30,7 +30,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.18 }} className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            <a href="#launch" className="inline-flex justify-center items-center rounded-lg bg-red-500 text-white px-5 py-3 font-semibold shadow-lg shadow-red-500/30 hover:bg-red-600 transition-colors">
+            <a href="#launch" className="inline-flex justify-center items-center rounded-lg bg-emerald-500 text-white px-5 py-3 font-semibold shadow-lg shadow-emerald-500/30 hover:bg-emerald-600 transition-colors">
               Launch with lock
             </a>
             <a href="#how" className="inline-flex justify-center items-center rounded-lg bg-white/10 text-white px-5 py-3 font-semibold ring-1 ring-inset ring-white/15 hover:bg-white/15 transition-colors">

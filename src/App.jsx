@@ -7,13 +7,13 @@ import CTA from './components/CTA'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
       <Features />
       <HowItWorks />
       <CTA />
-      <footer className="border-t border-white/10 py-10 bg-slate-950">
+      <footer className="border-t border-white/10 py-10 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-slate-400 text-sm flex flex-col sm:flex-row justify-between gap-4">
           <div>© {new Date().getFullYear()} lockpump.fun. All rights reserved.</div>
           <div className="flex gap-6">
