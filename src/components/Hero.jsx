@@ -9,8 +9,9 @@ export default function Hero() {
         <Spline scene="https://prod.spline.design/k3vzWf8TfEDJKl71/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
-      {/* gradient overlays */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/70 to-black pointer-events-none" />
+      {/* darker overlays for pump.fun vibe */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/85 to-black" />
+      <div className="absolute inset-0 bg-[radial-gradient(800px_300px_at_50%_0%,rgba(16,185,129,0.12),transparent_70%)]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 w-full">
         <div className="max-w-3xl">
@@ -25,20 +26,20 @@ export default function Hero() {
             Launch with confidence. Lock the dev wallet for 1 hour.
           </motion.h1>
 
-          <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.12 }} className="mt-6 text-lg md:text-xl text-slate-200 max-w-2xl">
+          <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.12 }} className="mt-6 text-lg md:text-xl text-slate-300 max-w-2xl">
             lockpump.fun lets builders deploy on pump.fun using a time-locked wallet so the deployer can't dump on the community. Safer launches. Cleaner vibes.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.18 }} className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            <a href="#launch" className="inline-flex justify-center items-center rounded-lg bg-emerald-500 text-white px-5 py-3 font-semibold shadow-lg shadow-emerald-500/30 hover:bg-emerald-600 transition-colors">
+            <a href="#launch" className="inline-flex justify-center items-center rounded-lg bg-emerald-500 text-white px-5 py-3 font-semibold shadow-[0_10px_40px_-12px_rgba(16,185,129,0.65)] hover:bg-emerald-600 transition-colors">
               Launch with lock
             </a>
-            <a href="#how" className="inline-flex justify-center items-center rounded-lg bg-white/10 text-white px-5 py-3 font-semibold ring-1 ring-inset ring-white/15 hover:bg-white/15 transition-colors">
+            <a href="#how" className="inline-flex justify-center items-center rounded-lg bg-white/5 text-white px-5 py-3 font-semibold ring-1 ring-inset ring-white/10 hover:bg-white/10 transition-colors">
               How it works
             </a>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-10 grid grid-cols-2 sm:flex gap-6 text-sm text-slate-300">
+          <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-10 grid grid-cols-2 sm:flex gap-6 text-sm text-slate-400">
             <div>
               <div className="text-white font-semibold">1h dev lock</div>
               <div className="text-slate-400">No instant dumps</div>
